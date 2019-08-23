@@ -1,8 +1,8 @@
-CREATE DATABASE IF NOT EXISTS `Database shizzle`;
+CREATE DATABASE shizzle;
 
-CREATE TABLE `table enzo `(
-	ID      INT              NOT NULL AUTO_INCREMENT,
-  	Author  VARCHAR (20)    ,
-    Title   VARCHAR (100) UNIQUE NOT NULL, 
-   	Text    VARCHAR(5000)    ,
-	 PRIMARY KEY (`ID`);
+CREATE TABLE IF NOT EXCISTS enzo (
+	id      INT   UNSIGNED		NOT NULL AUTO_INCREMENT,
+  	author  VARCHAR (200)    ,
+    title   VARCHAR (500) UNIQUE NOT NULL, 
+   	tekst    TEXT   ,
+	 PRIMARY KEY (`id`)  ; 
